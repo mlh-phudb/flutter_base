@@ -2,11 +2,11 @@
 import 'package:dio/dio.dart';
 
 class ApiConstant{
-  static const  BASE_URL = 'https://demo.shopmede.com/api/';
+  static const  BASE_URL = 'https://reqres.in/api/';
 
   //API
   static const SHOPS = 'shops';
-
+  static const USERS = 'users';
 }
 
 class HttpMethodConstant{

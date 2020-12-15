@@ -48,10 +48,7 @@ class _LoginState extends ViewState<Login, LoginController> {
               style: TextStyle(color: Colors.white),
             ),
             onPressed: () async {
-              await _scanQuery();
-              controller.fetchDataFromApi(action: () {
-                Get.offNamed(Routes.HOME);
-              });
+              Get.toNamed(Routes.USERS);
             },
           ),
         ));
